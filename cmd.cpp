@@ -63,7 +63,7 @@ void cmd::displayBanner(char *path)
 {
     std::printf("Usage: %s <path> <scale> <color>\n"
                 "\n"
-                "path[string]: path to the image file you want to open\n"
+                "path[string]: path to the image file you want to open (optional if `stdin` is provided)\n"
                 "scale[float]: scale factor for the generated image (>0, optional, default=1)\n"
                 "color[true/false]: shows ASCII character in ANSI-supported terminals (optional, default=false)\n"
                 "\n"
