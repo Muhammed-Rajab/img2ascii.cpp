@@ -32,7 +32,6 @@ float cmd::parseFloatFromCstring(const char *str)
         exit(EXIT_FAILURE);
     }
 
-    // ! BUG
     if (*end != '\0')
     {
         std::cerr << "error: invalid character found after number: '" << *end << "'\n";
