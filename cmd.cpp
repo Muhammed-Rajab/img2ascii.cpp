@@ -66,7 +66,7 @@ void cmd::displayBanner(char *path)
                 "scale[float]: scale factor for the generated image (>0, optional, default=1)\n"
                 "color[true/false]: shows ASCII character in ANSI-supported terminals (optional, default=false)\n"
                 "\n"
-                "`path` can be set to \"\", if you are providing data through `stdin`",
+                "`path` can be set to \"\", if you are providing data through `stdin`\n",
                 path);
 }
 
